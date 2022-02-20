@@ -1,0 +1,776 @@
+*{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+body{
+    margin: 0;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-size: 12px;
+    background-color: #F5F6FF;
+}
+
+:root{
+    --color-1:#3924CB;
+    --color-2:#F7991C;
+    --color-3:#6450EF;
+    --color-4:#E2E6FD;
+    --color-5:#828282;
+    --color-6:#ffffff;
+    --color-7:#333333;
+}
+
+
+.primary{
+  color: var(--color-3) !important;
+}
+
+.success{
+  color: var(--color-2) !important;
+}
+
+.text-justify{
+  text-align: justify !important;
+}
+
+.bg-smile{
+  background: #E2E6FD;
+  border-radius: 31.75px;
+}
+
+.bg-features{
+  /* background-color: #F5F6FF; */
+  padding: 50px 0  150px 0;
+}
+
+.warpper-container{
+    padding-top:40px;
+}
+
+.nav-header{
+    margin: 0 auto;
+    padding: 0 1rem;
+    align-items: baseline;
+}
+
+p{
+  color: var(--color-5) !important;
+}
+
+.logo h2{
+    width: 100%;
+    max-width:150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 1.25rem;
+    text-decoration: none;
+  }
+
+  li a:first-child{
+      font-weight: 500;
+  }
+  
+  li a {
+    color: var(--color-3);
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+
+
+
+  .get-started{
+      background-color:var(--color-4);
+      border-radius: 36px;
+      padding: 10px 20px;
+  }
+  
+  
+  
+  
+  /* Mobile Toggle */
+  
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top:2rem;
+    cursor: pointer;
+  }
+  
+  .nav-toggle img {
+    width: 1.5rem;
+    transition: 300ms all ease;
+  }
+  
+  .nav-toggle:hover img {
+    opacity: 0.6;
+  }
+  
+  .open {
+    height: 100vh;
+    z-index: 9999;
+    /* background-color: var(--color-1); */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+ 
+
+  /* ========================= navbar end ==================== */
+  /* ========================================================= */
+
+  .section-pt{
+     padding-top:10%; 
+  }
+
+  .section-padding{
+    padding-top:10%; 
+    padding-bottom:5%;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+  .reliable::after{
+    position: absolute;
+    content: "";
+    background: url('../image/icon/Oval\ \(Traced\).svg');
+    top:210px;
+    left:24%;
+    width: 451px;
+    height: 122px;
+    display: none;
+  }
+
+  .reliable h2{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 129%;
+  }
+
+
+  .iphone{
+    padding-top: 10%;
+  }
+
+   .iphone img{
+      width: 25%;
+   }
+
+   /* ============================ welcome end ================ */
+
+   .warpper .columns h2{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #333333;
+   }
+
+   .warpper .columns .golden-way{
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--color-1);
+    /* width:250px; */
+   }
+
+   .warpper .columns p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+   }
+
+/* =============================== end here ====================*/
+
+
+
+.range{
+  background: #1B1831;
+  padding-top:50px;
+  padding-bottom: 10%;
+}
+
+
+.range h2{
+   color: var(--color-4);
+   text-align: center;
+}
+
+.swiper-container{
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+
+
+.slider .slider-container {
+ position: relative;
+}
+
+.slider .swiper-container {
+ position: static;
+ width: 90%;
+ text-align: center;
+}
+
+.slider .swiper-button-prev,
+.slider .swiper-button-next {
+ top: 50%;
+ width: 1.125rem;
+}
+
+.slider .swiper-button-prev:focus,
+.slider .swiper-button-next:focus {
+ /* even if you can't see it chrome you can see it on mobile device */
+ outline: none;
+}
+
+.slider .swiper-button-prev {
+ left: -0.5rem;
+ background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+ background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+ right: -0.5rem;
+ background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+ background-size: 1.125rem 1.75rem;
+}
+
+
+/*=====================================         =========================*/
+ 
+/* =================== end range ================================*/
+
+
+
+.trending{
+  background: linear-gradient(180deg, #F2F4FF 0%, rgba(239, 241, 255, 0) 100%);
+}
+
+
+
+
+.trending h3{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 129%;
+}
+
+.trending p{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 129%;
+  color: var(--color-5);
+}
+
+.rates{
+  padding:20px  10px; 
+}
+
+/* ==============================  what people are saying section ================*/
+#what-user-say{
+  background-color: #1B1831;
+}
+
+.what-user-say{
+  padding:50px 0px 5px 0px;
+  text-align: center;
+}
+
+.what-user-title h1{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 129%;
+  color: var(--color-6);
+}
+
+.our-users{
+  color:var(--color-2);
+}
+
+.testimony{
+  color:var(--color-6);
+}
+
+.testimony p{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size:15px;
+  line-height: 129%;
+}
+
+.testimony-icon .fa-star{
+  color: var(--color-2);
+}
+
+.testimony{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px  0;
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+}
+
+/**********************************/
+/*     16. Back To Top Button     */
+/**********************************/
+a.back-to-top {
+	position: fixed;
+	z-index: 999;
+	right: 0.75rem;
+	bottom: 0.75rem;
+	display: none;
+	width: 2.625rem;
+	height: 2.625rem;
+	border-radius: 1.875rem;
+	background: var(--color-2) url("../image/up-arrow.png") no-repeat center 47%;
+	background-size: 1.125rem 1.125rem;
+	text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+	background-color:var(--color-1); 
+}
+
+
+/* ============================== limit ================================= */
+
+.limit h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+
+/* ================== About style    ================== */
+
+#culture{
+  padding-top:5rem;
+}
+
+.about-title h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 161.5%;
+}
+
+.about-title p{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 129%; */
+  color: var(--color-5);
+  text-align: justify;
+}
+
+.our-culture h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size:60px;
+  /* line-height: 161.5%; */
+  color: var(--color-7);
+}
+.our-culture h3{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size:60px;
+  /* line-height: 161.5%; */
+  color: var(--color-3);
+}
+
+.our-culture img{
+  width: 100%;
+  max-width: 25px;
+}
+
+/* ======================================  shield-tick ========================= */
+
+.shield-tick{
+   display: flex;
+   justify-content:center;
+   padding: 50px  0;
+   align-items: center;
+   flex-flow: row wrap;
+   gap:5rem;
+}
+
+.secure-title h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 129%;
+}
+
+.secure-title p{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 129%;
+  width: calc(3em * 6);
+}
+
+.secure .secure-img{
+   width: 100%;
+   max-width:100px;
+}
+
+/* =========================== footer section =================== */
+
+#footer{
+  padding:50px  0;
+}
+
+
+
+.footer-columns a{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--color-3);
+  padding: 0  10px;
+
+}
+
+.footer-columns .footer-social-icon i{
+  font-size: 10px
+}
+
+.features-content img{
+   width: 100%;
+   max-width: 30px;
+}
+
+.features-content h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 20px;
+}
+
+.features-content h3{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  /* line-height: 161.5%; */
+  color: var(--color-7);
+}
+
+
+.features-content .shape-1{
+    width: 100%;
+    max-width: 20px;
+}
+.about-images {
+  position: relative;
+  z-index: 1;
+  top:110px;
+}
+
+.about-images .shape-1 {
+  width: 70px;
+  position: absolute;
+  top: 30px;
+  left: 85px;
+  z-index: -1;
+}
+
+
+
+.about-images .single-image {
+  margin-top: 20px;
+}
+
+
+/* ============================== faqs section =========================== */
+
+.faqs-title h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 161.5%;
+}
+
+.faqs-title p{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 129%;
+}
+
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.faq-content{
+   margin-bottom:2.5rem;
+   padding:0px 30px;
+   border: 1px solid var(--color-3);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+
+.faq-page {
+  color: var(--color-7);
+  cursor: pointer;
+  padding: 30px 20px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+}
+.faq-body{
+  margin: auto;
+  padding: auto;
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 129%;
+  color: var(--color-5);
+}
+
+
+
+.active, .faq-content:hover{
+  background-color: var(--color-4);
+  border-radius: 25px;
+  
+}
+
+.faq-body {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.faq-page:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f107";
+  /* Unicode character for "plus" sign (+) */
+  font-size: 18px;
+  color: var(--color-7);
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f106";
+  /* Unicode character for "minus" sign (-) */
+}
+
+
+/* =====================================  privacy-policy ========================== */
+
+.privacy-policy h2{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  /* line-height: 161.5%; */
+}
+
+.privacy-policy p{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  /* line-height: 129 */
+}
+
+.list{
+  list-style-type:circle !important;
+}
+
+
+
+
+  /* ===================== media mobile view ==================== */
+   /* Mobile */
+@media screen and (max-width:800px) {
+  .reliable::after{
+    left:10%;
+    background: url('../image/icon/Oval.svg') no-repeat;
+    top:100px;
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  li a{
+      font-size: 15px;
+  }
+  li {
+
+    padding: 0 0.5rem;
+}
+
+.reliable::after{
+  left:20%;
+  background: url('../image/icon/Oval.svg') no-repeat;
+  top:150px;
+  display: none;
+}
+.reliable h2{
+   font-size: 22px;
+}
+
+.warpper .columns .golden-way{
+  font-size:29px;
+}
+
+.what-user-title h1{
+    font-size: 23px;
+}
+
+.footer-columns a{
+  font-size: 18px;
+  line-height: 40px;
+}
+
+#footer{
+  text-align: center;
+}
+
+.trending h3{
+  font-size: 37px;
+}
+
+.limit h2{
+  font-size: 26px;
+}
+
+.features-content h2{
+  font-size: 45px;
+}
+
+.features-content h3{
+  font-size: 45px
+}
+
+.features-content{
+  text-align: center;
+}
+
+.secure-title p{
+  width: calc(3em * 5);
+  font-size: 14px;
+}
+
+.secure-title h2{
+    font-size: 28px;
+    line-height: 114%;
+}
+
+.about-title h2{
+  font-size: 45px;
+}
+
+.privacy-policy h2{
+  font-size: 32px;
+}
+
+}
+
+
+@media all and (max-width: 720px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: flex-start !important;
+    
+  }
+
+  .warpper-container{
+      padding-top: 25px;
+  }
+
+  .nav-header{
+      align-items: baseline;
+  }
+
+
+  nav {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: 250ms height ease-in-out;
+    
+  }
+
+  li {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  li a {
+    font-size: 1.4rem;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .reliable::after{
+     background: url('../image/icon/Oval.svg') no-repeat;
+     top: 24px;
+     display: none;
+  }
+
+  .iphone img{
+    width:50%;
+  }
+}

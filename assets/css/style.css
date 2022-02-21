@@ -88,6 +88,9 @@ nav ul {
     text-decoration: none;
   }
 
+  li a:hover{
+    color: var(--color-3);
+  }
 
 
   .get-started{
